@@ -2,9 +2,7 @@
 using namespace std;
 int main() {
 	int dano = 7;
-	int mnoj = 1;
-	while (mnoj <= 14) {
+	for (int mnoj = 1; mnoj <= 14; ++mnoj) {
 		cout << dano * mnoj<<" ";
-		mnoj++;
 	}
 }
